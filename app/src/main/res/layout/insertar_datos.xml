@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/agregarFoto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp" />
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_below="@id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerHorizontal="true"
+            android:ems="10"/>
+        <EditText
+            android:id="@+id/editDireccion"
+            android:layout_below="@id/editNombre"
+            android:text="Direccion"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_below="@id/editDireccion"
+            android:layout_centerHorizontal="true"
+            android:minWidth="160dp"
+            android:text="Guardar"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</ScrollView>

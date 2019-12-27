@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AppViaje</string>
+    <string name="title_activity_list_restaurant">ListRestaurantActivity</string>
+    <string-array name="restaurantes">
+        <item>Restaurantes</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+    </string-array>
+    <string name="title_activity_list_hotel">ListHotelActivity</string>
+    <string-array name="hoteles">
+        <item>Apart Hotel</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+    </string-array>
+    <string name="title_activity_eventos">EventosActivity</string>
+    <string-array name="actividades">
+        <item>Excursiones</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+    </string-array>
+    <string name="title_activity_list_lugares">ListLugaresActivity</string>
+    <string-array name="lugares">
+        <item>Excursiones</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+        <item>Cafeterias</item>
+    </string-array>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_mapa">Map</string>
+</resources>
